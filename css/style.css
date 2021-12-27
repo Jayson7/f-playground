@@ -2,6 +2,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #f8f8f8;
     overflow-x: hidden;
 }
 
@@ -34,4 +35,28 @@ li a {
     font-family: "Poppins";
     font-weight: 900;
     font-size: 1.3rem;
+}
+
+.section1 {
+    width: 99vw;
+    /* background-color: #f8f8f8; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box1 {
+    width: 400px;
+    height: 400px;
+    /* background-color: #f8f8f8; */
+    display: block;
+    text-align: center;
+}
+
+.box2 {
+    width: 400px;
+    height: 400px;
+    background: url("../images/Rectangle\ 3.jpg");
 }
