@@ -45,6 +45,7 @@ li a {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 .box1 {
@@ -59,4 +60,5 @@ li a {
     width: 400px;
     height: 400px;
     background: url("../images/Rectangle\ 3.jpg");
+    background-position: center;
 }
