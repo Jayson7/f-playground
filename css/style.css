@@ -40,12 +40,12 @@ li a {
 .section1 {
     width: 100vw;
     /* background-color: #f8f8f8; */
-    height: 89vh;
+    height: 100%;
     display: flex;
     /* margin-top: -5vh; */
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -58,31 +58,52 @@ li a {
 }
 
 .box1 h1 {
-    font-size: 75px;
+    font-size: 68px;
     font-family: "Ubuntu";
     color: #053b19;
     font-weight: bolder;
+    word-spacing: 30px;
 }
 
 .box1 p {
     font-size: 1rem;
-    font-family: "Quantico";
+    font-family: "Poppins";
     color: #000;
-    font-weight: 700;
+    font-weight: 500;
+}
+
+.box1 .a {
+    background-color: #ffb43a;
+    padding: 5px 5px;
+    border: 2px #053b19 solid;
+    border-radius: 5px;
+    font-family: "Quantico";
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: #f8f8f8;
+    margin-right: 10px;
+}
+
+.b {
+    background-color: #053b19;
+    padding: 5px 5px;
+    border: 2px #ffb43a solid;
+    border-radius: 7px;
+    font-family: "Quantico";
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: #f8f8f8;
+    margin-left: 10px;
 }
 
 .box2 {
     width: 400px;
     height: 400px;
-    background: url("../images/Rectangle\ 3.jpg");
+    background: url("../images/Rectangle_3-removebg-preview.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-color: #f8f8f8;
-}
-
-.box1 button:nth-child(0) {
-    background-color: #ffb43a;
 }
 
 .box2::after {
