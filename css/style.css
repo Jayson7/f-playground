@@ -40,9 +40,9 @@ li a {
 .section1 {
     width: 100vw;
     /* background-color: #f8f8f8; */
-    height: 100vh;
+    height: 89vh;
     display: flex;
-    margin-top: -5vh;
+    /* margin-top: -5vh; */
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
@@ -50,7 +50,7 @@ li a {
 }
 
 .box1 {
-    width: 400px;
+    width: 500px;
     height: 400px;
     /* background-color: #f8f8f8; */
     display: block;
@@ -64,6 +64,13 @@ li a {
     font-weight: bolder;
 }
 
+.box1 p {
+    font-size: 1rem;
+    font-family: "Quantico";
+    color: #000;
+    font-weight: 700;
+}
+
 .box2 {
     width: 400px;
     height: 400px;
@@ -72,4 +79,20 @@ li a {
     background-repeat: no-repeat;
     background-size: contain;
     background-color: #f8f8f8;
+}
+
+.box1 button:nth-child(0) {
+    background-color: #ffb43a;
+}
+
+.box2::after {
+    content: "";
+    background: url("../images/1.jpg");
+    width: 400px;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 180px;
 }
