@@ -14,5 +14,12 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+}
+
+ul {
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
 }
