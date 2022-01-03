@@ -38,3 +38,7 @@ label {
     justify-content: space-around;
     align-items: center;
 }
+
+.header {
+    text-align: center;
+}
