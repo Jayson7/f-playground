@@ -16,8 +16,17 @@ body {
 form {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
+}
+
+form * {
+    margin: 5px;
+}
+
+label {
+    text-align: left;
+    width: 170px;
 }
 
 .login-box {
