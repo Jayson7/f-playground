@@ -42,3 +42,9 @@ label {
 .header {
     text-align: center;
 }
+
+.header h1 {
+    font-family: monospace;
+    font-weight: 900;
+    text-transform: uppercase;
+}
