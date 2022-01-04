@@ -30,7 +30,7 @@ label {
 }
 
 .login-box {
-    width: 250px;
+    width: 350px;
     height: auto;
     background-color: antiquewhite;
     display: flex;
@@ -49,4 +49,16 @@ label {
     text-transform: uppercase;
 }
 
-.
+.direction {
+    margin: 10px;
+}
+
+form input {
+    border-radius: 4px;
+    outline: 0;
+    padding: 5px 15px;
+}
+
+input:hover {
+    outline: 0;
+}
