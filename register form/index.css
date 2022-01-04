@@ -22,17 +22,19 @@ form {
 
 form * {
     margin: 5px;
+    color: white;
+    font-family: "Ubuntu";
 }
 
 label {
     text-align: left;
-    width: 170px;
+    width: 250px;
 }
 
 .login-box {
     width: 350px;
     height: auto;
-    background-color: antiquewhite;
+    background-color: rgb(31, 29, 27);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -41,6 +43,7 @@ label {
 
 .header {
     text-align: center;
+    color: azure;
 }
 
 .header h1 {
@@ -51,14 +54,37 @@ label {
 
 .direction {
     margin: 10px;
+    color: green;
+    font-family: monospace;
+}
+
+.direction a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.direction a:visited {
+    text-decoration: none;
+    color: aliceblue;
 }
 
 form input {
     border-radius: 4px;
     outline: 0;
     padding: 5px 15px;
+    border: 1px solid rgb(240, 227, 227);
 }
 
 input:hover {
     outline: 0;
+}
+
+button {
+    padding: 7px 10px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    font-weight: 900;
+    font-size: 1.1rem;
+    border: none;
+    margin: 20px 0;
 }
