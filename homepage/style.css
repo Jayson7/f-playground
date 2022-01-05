@@ -1,15 +1,22 @@
+:root {
+    --primary-color: #000;
+    --secondary-color: #fff;
+    --tertitiary-color: #70abaf;
+    --other-colors: rgb(46, 49, 95);
+}
+
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: black;
+    background-color: var(--primary-color);
 }
 
 .nav {
     display: flex;
     background-color: aqua;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 ul {
@@ -21,4 +28,10 @@ ul {
 
 ul li {
     margin: 0 15px;
+}
+
+.right-side-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
