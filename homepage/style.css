@@ -2,7 +2,7 @@
     --primary-color: #000;
     --secondary-color: #fff;
     --tertitiary-color: #70abaf;
-    --other-colors: rgb(46, 49, 95);
+    --other-color: rgb(46, 49, 95);
     --font1: "Ubuntu";
     --font2: "Ubuntu Mono";
     --font3: monospace;
@@ -22,11 +22,15 @@ body {
 
 /* body ends */
 
+
+/* navbar config */
+
 .nav {
     display: flex;
     /* background-color: aqua; */
     align-items: center;
     justify-content: space-around;
+    font-family: var(--font2);
 }
 
 ul {
@@ -44,27 +48,47 @@ ul li {
 .right-side-nav {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 ul li a {
     text-decoration: none;
+    font-size: 1rem;
+    color: var(--secondary-color);
+    font-weight: 700;
 }
 
 .drop .cont-drop {
     position: absolute;
-    background-color: var(--tertitiary-color);
-    display: block;
+    background-color: var(--other-color);
+    display: none;
     align-items: center;
+    transition: display 3s ease-in-out;
     text-align: center;
     font-size: 1rem;
     width: 100px;
     height: 100px;
     color: var(--secondary-color);
-    margin-top: 20px;
+    /* margin-top: 10px; */
     margin-left: -20px;
 }
 
-.cont-drop div {
-    margin: 7px 0;
+.drop:hover .cont-drop {
+    display: block;
+    transition: display 3s ease-in-out;
 }
+
+.cont-drop div {
+    margin: 9px 0;
+}
+
+.btns {
+    margin: 5px;
+    padding: 5px 15px;
+    text-transform: capitalize;
+    font-family: var(--font1);
+    font-weight: 500;
+}
+
+
+/* navbar config */
