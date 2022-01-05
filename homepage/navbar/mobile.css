@@ -13,11 +13,10 @@
 
 .nav ul {
     width: 150px;
-    height: 70%;
+    height: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: aqua;
     justify-content: space-around;
 }
 
@@ -28,9 +27,14 @@
 
 .nav ul li a {
     text-decoration: none;
+    color: var(--secondary-color);
+    font-family: var(--font2);
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: capitalize;
 }
 
-.drop .cont-drop {
+.nav .drop .cont-drop {
     position: absolute;
     background-color: var(--other-color);
     display: none;
@@ -45,23 +49,23 @@
     margin-left: -20px;
 }
 
-.drop:hover .cont-drop {
+.nav .drop:hover .cont-drop {
     display: block;
     transition: display 3s ease-in-out;
 }
 
-.cont-drop div {
+.nav .cont-drop div {
     margin: 9px 0;
 }
 
-.right-side-nav {
+.nav .right-side-nav {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.btns {
+.nav .btns {
     margin: 5px;
     padding: 7px 25px;
     text-transform: capitalize;
