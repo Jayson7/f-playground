@@ -49,3 +49,8 @@
 .cont-drop div {
     margin: 9px 0;
 }
+
+.right-side-nav {
+    display: flex;
+    flex-direction: column;
+}
