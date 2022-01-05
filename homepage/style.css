@@ -28,10 +28,30 @@ ul {
 
 ul li {
     margin: 0 15px;
+    list-style-type: none;
 }
 
 .right-side-nav {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.drop .cont-drop {
+    position: absolute;
+    background-color: var(--tertitiary-color);
+    display: block;
+    text-align: center;
+    font-size: 0.7rem;
+    width: 100px;
+    height: 100px;
+    color: var(--secondary-color);
+}
+
+.cont-drop div {
+    margin: 7px 0;
 }
