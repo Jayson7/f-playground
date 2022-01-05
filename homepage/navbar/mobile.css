@@ -17,3 +17,35 @@
     display: grid;
     place-items: center;
 }
+
+.nav ul li {
+    list-style-type: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+}
+
+.drop .cont-drop {
+    position: absolute;
+    background-color: var(--other-color);
+    display: none;
+    align-items: center;
+    transition: display 3s ease-in-out;
+    text-align: center;
+    font-size: 1rem;
+    width: 100px;
+    height: 100px;
+    color: var(--secondary-color);
+    /* margin-top: 10px; */
+    margin-left: -20px;
+}
+
+.drop:hover .cont-drop {
+    display: block;
+    transition: display 3s ease-in-out;
+}
+
+.cont-drop div {
+    margin: 9px 0;
+}
