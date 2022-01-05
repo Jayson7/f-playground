@@ -3,7 +3,14 @@
     --secondary-color: #fff;
     --tertitiary-color: #70abaf;
     --other-colors: rgb(46, 49, 95);
+    --font1: "Ubuntu";
+    --font2: "Ubuntu Mono";
+    --font3: monospace;
+    --font4: "Ari";
 }
+
+
+/* body */
 
 body {
     margin: 0;
@@ -12,9 +19,12 @@ body {
     background-color: var(--primary-color);
 }
 
+
+/* body ends */
+
 .nav {
     display: flex;
-    background-color: aqua;
+    /* background-color: aqua; */
     align-items: center;
     justify-content: space-around;
 }
@@ -45,11 +55,14 @@ ul li a {
     position: absolute;
     background-color: var(--tertitiary-color);
     display: block;
+    align-items: center;
     text-align: center;
-    font-size: 0.7rem;
+    font-size: 1rem;
     width: 100px;
     height: 100px;
     color: var(--secondary-color);
+    margin-top: 20px;
+    margin-left: -20px;
 }
 
 .cont-drop div {
