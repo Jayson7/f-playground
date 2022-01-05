@@ -84,10 +84,14 @@ ul li a {
 
 .btns {
     margin: 5px;
-    padding: 5px 15px;
+    padding: 7px 25px;
     text-transform: capitalize;
     font-family: var(--font1);
     font-weight: 500;
+    background-color: var(--other-color);
+    border: none;
+    color: var(--secondary-color);
+    border-radius: 3px;
 }
 
 
