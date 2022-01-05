@@ -16,3 +16,7 @@ ul {
     align-items: center;
     background-color: black;
 }
+
+ul li {
+    margin: 0 10px;
+}
