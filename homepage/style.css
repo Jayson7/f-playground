@@ -2,4 +2,17 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: black;
+}
+
+.nav {
+    display: flex;
+    background-color: aqua;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
 }
