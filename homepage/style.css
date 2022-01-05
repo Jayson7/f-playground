@@ -1,12 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&family=Ubuntu:wght@700&display=swap");
 :root {
     --primary-color: #000;
     --secondary-color: #fff;
     --tertitiary-color: #70abaf;
     --other-color: rgb(46, 49, 95);
     --font1: "Ubuntu";
-    --font2: "Ubuntu Mono";
+    --font2: "Roboto";
     --font3: monospace;
-    --font4: "Ari";
+    --font4: "Lobster";
 }
 
 
