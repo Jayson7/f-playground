@@ -150,8 +150,36 @@ ul li a {
 .section1 {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    height: calc(98vh - 110px);
     background-color: #000;
+    flex-wrap: wrap;
+}
+
+.box1,
+.box2 {
+    height: 80%;
+    margin: 20px;
+    width: 40%;
+    background-color: aqua;
+}
+
+@media screen and (max-width: 900px) {
+    .section1 {
+        /* background-color: blueviolet; */
+        display: flex;
+        height: 100%;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .box1,
+    .box2 {
+        /* background-color: blue; */
+        width: 80%;
+        height: 400px;
+    }
 }
 
 
