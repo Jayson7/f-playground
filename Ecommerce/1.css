@@ -164,6 +164,20 @@ ul li a {
     background-color: aqua;
 }
 
+.box2 {
+    background: url("./images/1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: var(--headers-font);
+    text-transform: uppercase;
+}
+
 @media screen and (max-width: 900px) {
     .section1 {
         /* background-color: blueviolet; */
@@ -176,9 +190,18 @@ ul li a {
     }
     .box1,
     .box2 {
+        margin: 20px 0px;
         /* background-color: blue; */
-        width: 80%;
+        width: 100%;
         height: 400px;
+    }
+    @media screen and (max-width: 570px) {
+        .box1,
+        .box2 {
+            /* background-color: blue; */
+            width: 100%;
+            height: 400px;
+        }
     }
 }
 
