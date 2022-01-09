@@ -76,7 +76,7 @@ ul li a {
 }
 
 .topper {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     display: flex;
@@ -96,7 +96,7 @@ ul li a {
         width: 0px;
         position: fixed;
         left: 0;
-        top: 50px;
+        top: 0px;
         height: 100vh;
         background-color: rgb(40, 5, 41);
         display: flex;
@@ -112,7 +112,7 @@ ul li a {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        margin-bottom: 20px;
+        /* margin-bottom: 10px; */
     }
     header {
         background-color: transparent;
