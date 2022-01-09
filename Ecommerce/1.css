@@ -147,5 +147,12 @@ ul li a {
 
 /* section1 */
 
+.section1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+
 
 /* section1 ends */
